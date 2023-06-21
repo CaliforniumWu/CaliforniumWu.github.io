@@ -7,6 +7,11 @@
         <title>Edward Wu</title>
         <link rel="stylesheet" href="move.css">
         <link rel="stylesheet" href="style.css">
+        <style>
+          .wrapper{
+            display: block;
+          }
+        </style>
     </head>
     <body>
     <div class="wrapper">
@@ -22,9 +27,6 @@
       <script>
         var wrapper = document.querySelector(".wrapper");
         window.addEventListener("load", function() {
-          wrapper.style.display = "block";
-        });
-        wrapper.addEventListener("animationend", function() {
           wrapper.style.display = "none";
         });
       </script>  
